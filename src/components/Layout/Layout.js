@@ -1,5 +1,5 @@
 import React from 'react'
-import Auxilary from "../../hoc/Aux";
+import Auxilary from "../../hoc/Auxilary";
 import styles from './Layout.module.css'
 
 const layout=(props)=>{

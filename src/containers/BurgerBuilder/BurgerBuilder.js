@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
- import Aux from '../../hoc/Aux'
+ import Auxilary from '../../hoc/Auxilary'
  import Burger from '../../components/Burger/Burger'
  import BuildControls from '../../components/Burger/BuildControls/BuildControls'
 
@@ -17,10 +17,10 @@ import React, { Component } from 'react'
 
     render(){
         return(
-          <Aux> 
+          <Auxilary> 
                 <Burger  ingredients={this.state.ingredients}/>
                 <BuildControls/>
-          </Aux>
+          </Auxilary>
           
         );
     }

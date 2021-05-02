@@ -1,11 +1,11 @@
 import React from 'react'
-import Aux from "../../hoc/Aux";
+import Auxilary from "../../hoc/Aux";
 import styles from './Layout.module.css'
 
 const layout=(props)=>{
 
 return(
-    <Aux>
+    <Auxilary>
 
     <div>
         ToolBar,SideDrawer,Backdrop
@@ -14,7 +14,7 @@ return(
     <main className={styles.Content}>
         {props.children}
     </main>
-    </Aux> 
+    </Auxilary> 
 ); 
 }
 

@@ -1,20 +1,20 @@
 import React from 'react'
-import Aux from "../../hoc/Aux";
+import Auxilary from "../../hoc/Auxilary";
 import styles from './Layout.module.css'
+import ToolBar from '../Navigation/Toolbar/Toolbar'
+import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 
 const layout=(props)=>{
 
 return(
-    <Aux>
+    <Auxilary>
 
-    <div>
-        ToolBar,SideDrawer,Backdrop
-    </div>
-    
+    <ToolBar/>
+    <SideDrawer/>
     <main className={styles.Content}>
         {props.children}
     </main>
-    </Aux> 
+    </Auxilary> 
 ); 
 }
 

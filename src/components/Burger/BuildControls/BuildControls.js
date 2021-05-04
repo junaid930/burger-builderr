@@ -1,21 +1,14 @@
 import React from 'react';
 import classes from './BuildControls.module.css'
 import BuildControl from './BuildControl/BuildControl'
-<<<<<<< HEAD
+
 const controls = [
     { label: 'Salad', type: 'salad' },
     { label: 'Bacon', type: 'bacon' },
     { label: 'Cheese', type: 'cheese' },
     { label: 'Meat', type: 'meat' },
 
-=======
-const controls=[
-    {label:'Salad', type: 'salad'},
-    {label:'Bacon', type: 'bacon'},
-    {label:'Cheese', type: 'cheese'},
-    {label:'Meat', type: 'meat'},
-    
->>>>>>> fe359a69c58d1fb40e0a364fb9b3e13da9e9e207
+
 ]
 //sdds
 
